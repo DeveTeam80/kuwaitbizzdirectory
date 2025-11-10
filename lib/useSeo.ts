@@ -2,7 +2,6 @@
 import { Metadata } from 'next';
 import metaData from '../seo/meta.json';
 import { seoConfig } from '../seo/config';
-// src/lib/useSeo.ts
 import { ListingContext } from '@/app/lib/data'; 
 // ============================================================================
 // TYPE DEFINITIONS
@@ -445,7 +444,7 @@ function buildOrganizationSchema(
     ...(primaryLocation?.address && { streetAddress: primaryLocation.address }),
     ...(listing.location && !primaryLocation?.address && { streetAddress: listing.location }),
     ...(listing.city && { addressLocality: listing.city }),
-    addressCountry: 'KE'
+    addressCountry: 'KW' // 🇰🇼 FIX
   } : undefined;
 
   const telephone = primaryLocation?.phone || listing.call || undefined;
@@ -486,8 +485,8 @@ function buildOrganizationSchema(
     contactType: primaryLocation?.contactPerson ? 'sales' : 'customer support',
     ...(telephone && { telephone }),
     ...(primaryLocation?.email && { email: primaryLocation.email }),
-    ...(isLocalBusiness && { areaServed: 'KE' }),
-    availableLanguage: ['en', 'sw']
+    ...(isLocalBusiness && { areaServed: 'KW' }), // 🇰🇼 FIX
+    availableLanguage: ['en', 'ar'] // 🇰🇼 FIX (ar for Arabic)
   } : undefined;
 
   const hasOfferCatalog = 
@@ -647,7 +646,7 @@ function buildAIAgentSchema(
         address: {
           '@type': 'PostalAddress',
           addressLocality: location,
-          addressCountry: 'KE'
+          addressCountry: 'KW' // 🇰🇼 FIX
         },
         knowsAbout: aiData.topics,
         sameAs: aiData.entities
@@ -728,7 +727,7 @@ function buildHowToSchema(listing: any): object | null {
     totalTime: 'PT1H',
     estimatedCost: {
       '@type': 'MonetaryAmount',
-      currency: 'KES',
+      currency: 'KWD', // 🇰🇼 FIX
       value: 'Contact for pricing'
     }
   };
@@ -739,7 +738,7 @@ function buildHowToSchema(listing: any): object | null {
 // ============================================================================
 
 const schemaMap: Record<string, () => Promise<{ default: SchemaData }>> = {
-  '/': () => import('../seo/schema/home.json'),
+  '/': () => import('../seo/schema/home.json'), 
 };
 
 const routeToMetaKey: Record<string, string> = {
@@ -850,8 +849,8 @@ export async function generateSEOMetadata(
         'ai-agent-topics': (customData.aiAgent || finalMeta.aiAgent)?.topics?.join(',') || '',
         'ai-agent-conversational-hooks': (customData.aiAgent || finalMeta.aiAgent)?.conversationalHooks?.join('|') || '',
       } : {}),
-      'content-language': 'en-KE',
-      'geo.region': 'KE',
+      'content-language': 'en-KW', // 🇰🇼 FIX
+      'geo.region': 'KW', // 🇰🇼 FIX
       'geo.country': 'Kuwait',
       'distribution': 'global',
       'rating': 'general',
@@ -903,7 +902,7 @@ export async function generateCategoryPageSEOMetadata(
   // Load category-specific JSON-LD schema
   let categorySchema: any | null = null;
   try {
-    const module = await import(`../seo/schema/${categorySlug}.json`);
+    const module = await import(`@/seo/schema/${categorySlug}.json`); // 📁 FIX
     categorySchema = module.default ?? module;
   } catch {
     // Schema file not found - will use dynamic generation only
@@ -1022,7 +1021,7 @@ export async function generateListingPageSEOMetadata(
   let listingSchema: any | null = null;
   try {
     const baseDir = context === ListingContext.GLOBAL ? 'global-listings' : 'listings';
-    const mod = await import(`../seo/schema/${baseDir}/${categorySlug}/${listingSlug}.json`);
+    const mod = await import(`@/seo/schema/${baseDir}/${categorySlug}/${listingSlug}.json`); // 📁 FIX
     listingSchema = (mod as any).default ?? mod;
   } catch {
     // No custom schema - will use dynamic generation

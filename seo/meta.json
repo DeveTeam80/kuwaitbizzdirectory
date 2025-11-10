@@ -1,12 +1,24 @@
 {
   "home": {
-    "title": "Top Business Listing Directory in Kuwait | Kuwaitbizz Directory",
-    "description": "Find trusted businesses across Kuwait with our comprehensive business directory. Discover contacts, locations, reviews, and services all in one place.",
-    "keywords": "Kuwait business directory,business listings Kuwait,Kuwait businesses,Kuwait companies,Kuwait services,verified businesses Kuwait,local business directory",
+    "title": "Best Business Listing Directory in Kuwait | Find Top Rated Companies | Kuwait Bizz Directory",
+    "description": "Search Kuwait's best business Listing directory. Kuwait Bizz Directory offers verified listings, customer reviews, & contacts for the top companies, clinics, & services. Find trusted businesses fast.",
+    "keywords": "Kuwait business directory,business listings Kuwait,Kuwait businesses,Kuwait companies,Kuwait services,verified businesses Kuwait,local business directory,Kuwait companies directory,Kuwait commercial guide,Online directory Kuwait,Kuwait local business directory,Business guide Kuwait,Companies in Kuwait,List of companies in Kuwait,Find businesses in Kuwait,Kuwait company listings",
     "canonical": "https://www.kuwaitbizzdirectory.com/",
     "ogImage": "/assets/img/logo/og-home.png",
-    "ogTitle": "Kuwait's Leading Business Directory | Kuwaitbizz Directory",
-    "ogDescription": "Explore verified business listings in Kuwait. Search by category, location, or name to connect with reliable companies and services near you.",
+    "ogTitle": "Top Business Listing Directory in Kuwait | Kuwait Bizz Directory",
+    "ogDescription": "Tired of outdated info? Find the top-rated and most reliable businesses in Kuwait. From top restaurants to verified contractors, Kuwait Bizz Directory is your #1 source.",
+    "ogType": "website",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "home_ar": {
+    "title": "أفضل دليل أعمال في الكويت | شركات موثقة | كويت بـِز دايركتوري",
+    "description": "ابحث في أفضل دليل أعمال بالكويت. كويت بـِز دايركتوري يقدم قوائم موثقة، تقييمات عملاء، وبيانات اتصال لأبرز الشركات والعيادات والخدمات. اعثر على الأفضل بسرعة.",
+    "keywords": "دليل شركات الكويت, الدليل التجاري الكويتي, دليل الكويت اون لاين, دليل الأعمال المحلي في الكويت, دليل أعمال الكويت, شركات في الكويت, قائمة شركات الكويت, البحث عن شركات في الكويت, قوائم شركات الكويت",
+    "canonical": "https://www.kuwaitbizzdirectory.com/ar",
+    "ogImage": "/assets/img/logo/og-home.png",
+    "ogTitle": "كويت بـِز دايركتوري: الدليل الأفضل والأكثر ثقة للشركات في الكويت",
+    "ogDescription": "هل تبحث عن الأفضل؟ اعثر على أعلى الشركات تقييماً والأكثر ثقة في الكويت. من أفضل المطاعم إلى المقاولين المعتمدين، كويت بـِز دايركتوري هو دليلك الأول.",
     "ogType": "website",
     "author": "Kuwait Bizz Directory",
     "robots": "index, follow"

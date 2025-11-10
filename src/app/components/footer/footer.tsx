@@ -26,9 +26,9 @@ export default function Footer() {
                             {/* Social Links Updated */}
                             <div className="footerSocialwrap">
                                 <ul className="footersocial">
-                                    <li><Link href="https://www.facebook.com/profile.php?id=61579269054692" target="_blank" className="social-link"><FaFacebookF /></Link></li>
+                                    <li><Link href="https://www.facebook.com/profile.php?id=61583444976659" target="_blank" className="social-link"><FaFacebookF /></Link></li>
                                     <li><Link href="https://www.instagram.com/kuwaitbizzdirectory/" target="_blank" className="social-link"><FaInstagram /></Link></li>
-                                    <li><Link href="https://www.linkedin.com/company/108607908/" target="_blank" className="social-link"><FaLinkedinIn /></Link></li>
+                                    {/* <li><Link href="https://www.linkedin.com/company/108607908/" target="_blank" className="social-link"><FaLinkedinIn /></Link></li> */}
                                 </ul>
                             </div>
                         </div>
