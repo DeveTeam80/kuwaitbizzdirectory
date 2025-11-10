@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.kuwaitbizzdirectory.com/#localbusiness",
+      "name": "KuwaitBizz Directory",
+      "alternateName": [
+        "Kuwait Bizz Directory",
+        "Explore Kuwait Bizz"
+      ],
+      "url": "https://www.kuwaitbizzdirectory.com/",
+      "description": "Find trusted businesses across Kuwait with our comprehensive business directory. Discover contacts, locations, reviews, and services all in one place.",
+      "category": "Business directory",
+      "image": [
+        "https://www.kuwaitbizzdirectory.com/assets/img/logo/logoa.png",
+        "https://www.kuwaitbizzdirectory.com/assets/img/index-aboutus.png"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.kuwaitbizzdirectory.com/assets/img/logo/logoa.png"
+      },
+      "email": "info@kuwaitbizzdirectory.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KW"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Kuwait"
+        },
+        {
+          "@type": "City",
+          "name": "Kuwait City"
+        },
+        {
+          "@type": "City",
+          "name": "Hawalli"
+        },
+        {
+          "@type": "City",
+          "name": "Salmiya"
+        },
+        {
+          "@type": "City",
+          "name": "Ahmadi"
+        }
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61579269054692",
+        "https://www.linkedin.com/company/108607908/",
+        "https://www.instagram.com/kuwaitbizzdirectory/"
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Visionary Services",
+        "url": "https://visionarybizz.com/"
+      },
+      "knowsAbout": [
+        "Business listings in Kuwait",
+        "Real Estate in Kuwait",
+        "Manufacturing companies in Kuwait",
+        "Shops and suppliers in Kuwait",
+        "Kuwait City businesses",
+        "Hawalli businesses",
+        "Salmiya businesses",
+        "Ahmadi businesses"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Categories",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Real Estate",
+            "url": "https://www.kuwaitbizzdirectory.com/real-estate/main",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Real Estate Listings in Kuwait"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Manufacturing Industry",
+            "url": "https://www.kuwaitbizzdirectory.com/manufacturing/main",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Manufacturing & Industrial Listings"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "Shops and Suppliers",
+            "url": "https://www.kuwaitbizzdirectory.com/shops-and-suppliers/main",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Retail & Wholesale Listings"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "name": "Add Listing",
+          "url": "https://www.kuwaitbizzdirectory.com/listing",
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.kuwaitbizzdirectory.com/#website",
+      "url": "https://www.kuwaitbizzdirectory.com/",
+      "name": "KuwaitBizz Directory",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.kuwaitbizzdirectory.com/#localbusiness"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.kuwaitbizzdirectory.com/all-listings?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kuwaitbizzdirectory.com/#webpage",
+      "url": "https://www.kuwaitbizzdirectory.com/",
+      "name": "Discover Trusted Business Listings in Kuwait | KuwaitBizz Directory",
+      "isPartOf": {
+        "@id": "https://www.kuwaitbizzdirectory.com/#website"
+      },
+      "about": {
+        "@id": "https://www.kuwaitbizzdirectory.com/#localbusiness"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.kuwaitbizzdirectory.com/assets/img/index-aboutus.png"
+      },
+      "inLanguage": "en",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.kuwaitbizzdirectory.com/"
+          }
+        ]
+      },
+      "description": "Find trusted businesses across Kuwait with our comprehensive business directory. Discover contacts, locations, reviews, and services all in one place."
+    }
+  ]
+}

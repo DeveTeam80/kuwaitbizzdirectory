@@ -1,0 +1,98 @@
+{
+  "home": {
+    "title": "Top Business Listing Directory in Kuwait | Kuwaitbizz Directory",
+    "description": "Find trusted businesses across Kuwait with our comprehensive business directory. Discover contacts, locations, reviews, and services all in one place.",
+    "keywords": "Kuwait business directory,business listings Kuwait,Kuwait businesses,Kuwait companies,Kuwait services,verified businesses Kuwait,local business directory",
+    "canonical": "https://www.kuwaitbizzdirectory.com/",
+    "ogImage": "/assets/img/logo/og-home.png",
+    "ogTitle": "Kuwait's Leading Business Directory | Kuwaitbizz Directory",
+    "ogDescription": "Explore verified business listings in Kuwait. Search by category, location, or name to connect with reliable companies and services near you.",
+    "ogType": "website",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "about": {
+    "title": "About Us - Kuwait Bizz Directory",
+    "description": "Learn about Kuwait Bizz Directory - your gateway to discovering trusted businesses across Kuwait.",
+    "keywords": "about Kuwait Bizz Directory,business directory Kuwait,local businesses Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/about",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "all-listings": {
+    "title": "All Business Listings in Kuwait | Kuwait Bizz Directory",
+    "description": "Browse all verified business listings across Kuwait. Find companies, services, and suppliers in Kuwait City, Hawalli, and other cities.",
+    "keywords": "all business listings Kuwait,Kuwait companies,business directory,verified listings",
+    "canonical": "https://www.kuwaitbizzdirectory.com/all-listings",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "shops-suppliers": {
+    "title": "Shops and Suppliers in Kuwait | Retail & Wholesale Directory",
+    "description": "Find Top Shops & Suppliers in Kuwait - Verified Listings for Retail, Wholesale & More. Connect with trusted suppliers nationwide.",
+    "keywords": "shops Kuwait,suppliers Kuwait,retail directory,wholesale suppliers Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/shops-and-suppliers/main",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "global-listings": {
+    "title": "Global Business Listings | International Companies & Services",
+    "description": "Explore international business listings. Find companies and services across countries with contact details and categories.",
+    "keywords": "global business directory,international listings,worldwide companies,global services",
+    "canonical": "https://www.kuwaitbizzdirectory.com/global-listings",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow"
+  },
+  "add-listing": {
+    "title": "Add Your Business | List on Kuwait Bizz Directory",
+    "description": "Submit your business to Kuwait Bizz Directory. Get discovered by customers searching for services near them.",
+    "keywords": "add business Kuwait,submit listing,business sign up,list company Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/add-listing",
+    "author": "Kuwait Bizz Directory",
+    "robots": "noindex, follow"
+  },
+  "manufacturing": {
+    "title": "Listing Directory for Manufacturers in Kuwait | Kuwaitbizz Directory",
+    "description": "Discover Kuwait’s top business directory for finding and connecting with reliable manufacturers, real estate firms, and service providers.",
+    "keywords": "manufacturers Kuwait,industrial suppliers Kuwait,manufacturing directory Kuwait,manufacturing companies Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/listings/manufacturing",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow",
+    "ogTitle": "Kuwait’s Best Listing Directory For Manufacturers | Kuwaitbizz Directory",
+    "ogDescription": "Explore verified business listings across Kuwait. From manufacturing to real estate, find and connect with industry leaders with ease.",
+    "ogType": "website"
+  },
+  "real-estate": {
+    "title": "Best Real Estate Listing Directory in Kuwait | Kuwaitbizz Directory",
+    "description": "Discover Kuwait’s top real estate directory for buying, renting, or selling property. Search listings for homes, land, apartments, and commercial spaces across the country.",
+    "keywords": "real estate Kuwait,property listings Kuwait,buy house Kuwait,rent apartments Kuwait,land for sale Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/listings/real-estate",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow",
+    "ogTitle": "Kuwait’s #1 Real Estate Directory - Find Your Ideal Property",
+    "ogDescription": "Explore verified property listings across Kuwait. From homes to commercial spaces, find and connect with real estate agents, sellers, and landlords with ease.",
+    "ogType": "website"
+  },
+  "services": {
+    "title": "Top Service Industry Listing Directory in Kuwait | Kuwaitbizz Directory",
+    "description": "Find the best professional services in Kuwait. Browse our directory for trusted financial advisors, travel agencies, and more.",
+    "keywords": "services Kuwait,professional services Kuwait,advisory firms Kuwait,tour operators Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/listings/services",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow",
+    "ogTitle": "Professional Services Directory in Kuwait | Kuwaitbizz",
+    "ogDescription": "Connect with leading service providers in Kuwait. From financial and advisory firms to expert tour operators, find the partner you need.",
+    "ogType": "website"
+  },
+  "shops-and-suppliers": {
+    "title": "Top Shops & Suppliers in Kuwait | Kuwaitbizz Directory",
+    "description": "Find the best shops, hardware stores, electronics suppliers, and more in Kuwait. Browse our directory for quality products and trusted vendors.",
+    "keywords": "shops Kuwait,suppliers Kuwait,hardware Kuwait,electronics suppliers Kuwait",
+    "canonical": "https://www.kuwaitbizzdirectory.com/listings/shops-and-suppliers",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow",
+    "ogTitle": "Shops & Suppliers Directory - Kuwait | Kuwaitbizz",
+    "ogDescription": "Connect with leading suppliers in Kuwait. From hardware and electronics to apparel, find everything you need on Kuwaitbizz Directory.",
+    "ogType": "website"
+  }
+}
