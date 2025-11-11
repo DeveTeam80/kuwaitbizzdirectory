@@ -743,6 +743,7 @@ const schemaMap: Record<string, () => Promise<{ default: SchemaData }>> = {
 
 const routeToMetaKey: Record<string, string> = {
   '/': 'home',
+  '/services/digital-marketing': 'digitalMarketing',
   '/about-us': 'about',
   '/listings': 'all-listings',
   '/global-listings': 'global-listings',

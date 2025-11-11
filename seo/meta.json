@@ -31,6 +31,43 @@
     "author": "Kuwait Bizz Directory",
     "robots": "index, follow"
   },
+  "digitalMarketing": {
+    "title": "Digital Marketing Services in Kuwait | Kuwait Bizz Agency",
+    "description": "Leading digital marketing agency in Kuwait offering SEO, social media marketing, online advertising, and business directory listings. Grow your business across all 6 governorates.",
+    "keywords": "digital marketing kuwait, seo kuwait, social media marketing kuwait, online advertising kuwait, kuwait marketing agency, business directory kuwait, digital agency kuwait city",
+    "canonical": "https://kuwaitbizz.com/services/digital-marketing",
+    "ogTitle": "Kuwait's Premier Digital Marketing Agency | Kuwait Bizz",
+    "ogDescription": "Professional digital marketing services including SEO, social media, and advertising. Helping Kuwaiti businesses grow online with bilingual Arabic-English expertise.",
+    "ogImage": "/img/services/digital-marketing-og.jpg",
+    "ogType": "website",
+    "author": "Kuwait Bizz Directory",
+    "robots": "index, follow",
+    "aiAgent": {
+      "intent": "commercial",
+      "entities": [
+        "Kuwait Bizz",
+        "digital marketing",
+        "SEO Kuwait",
+        "social media marketing",
+        "online advertising",
+        "business directory"
+      ],
+      "topics": [
+        "digital marketing services",
+        "kuwait marketing agency",
+        "seo optimization",
+        "social media management",
+        "online advertising",
+        "business growth"
+      ],
+      "conversationalHooks": [
+        "What digital marketing services do you offer in Kuwait?",
+        "How can I improve my business visibility online in Kuwait?",
+        "What are your SEO services for Kuwaiti businesses?",
+        "How much does digital marketing cost in Kuwait?"
+      ]
+    }
+  },
   "all-listings": {
     "title": "All Business Listings in Kuwait | Kuwait Bizz Directory",
     "description": "Browse all verified business listings across Kuwait. Find companies, services, and suppliers in Kuwait City, Hawalli, and other cities.",
