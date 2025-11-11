@@ -1,7 +1,8 @@
 import { ListingContext, getListings } from '@/app/lib/data';
 import NavbarDark from './navbar-dark';
 
-interface NavItem {
+export interface NavItem {
+  id: string
   href: string
   label: string
   submenu?: NavItem[]

@@ -27,10 +27,10 @@ export default function ContactForm() {
           <div className="row justify-content-center mb-5">
             <div className="col-xl-8 col-lg-9 text-center">
               <span className="badge badge-primary rounded-pill mb-3">Get Started</span>
-              <h2 className="mb-3">Ready to Grow Your Business in Kuwait?</h2>
+              <h2 className="mb-3">Ready to Grow Your Business?</h2>
               <p className="text-muted fs-6">
                 Fill out the form below and our team will get back to you within 24 hours to discuss 
-                your digital marketing needs in Kuwait.
+                your digital marketing needs.
               </p>
             </div>
           </div>
@@ -42,14 +42,14 @@ export default function ContactForm() {
                   {/* Embedded Form */}
                   <div style={{ minHeight: '870px', width: '100%' }}>
                     <iframe
-                      src="https://app.visionarybizz.com/widget/form/gkSZE7nfmfWCRS6AESvK"
+                      src="https://app.visionarybizz.com/widget/form/Pfg0kRcY44EWLQfaQl2K"
                       className="w-100"
                       style={{
                         height: '870px',
                         border: 'none',
                         borderRadius: '4px'
                       }}
-                      id="inline-gkSZE7nfmfWCRS6AESvK"
+                      id="inline-Pfg0kRcY44EWLQfaQl2K"
                       data-layout="{'id':'INLINE'}"
                       data-trigger-type="alwaysShow"
                       data-trigger-value=""
@@ -59,16 +59,16 @@ export default function ContactForm() {
                       data-deactivation-value=""
                       data-form-name="Website - Agency form"
                       data-height="870"
-                      data-layout-iframe-id="inline-gkSZE7nfmfWCRS6AESvK"
-                      data-form-id="gkSZE7nfmfWCRS6AESvK"
+                      data-layout-iframe-id="inline-Pfg0kRcY44EWLQfaQl2K"
+                      data-form-id="Pfg0kRcY44EWLQfaQl2K"
                       title="Website - Agency form"
-                      loading="lazy"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
 
           {/* Contact Info Below Form */}
           {/* <div className="row justify-content-center mt-5">
