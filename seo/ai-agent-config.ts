@@ -1,8 +1,9 @@
 /**
- * AI Agent Optimization Configuration
+ * AI Agent Optimization Configuration - KUWAIT
  * 
  * This file contains configuration for optimizing content for AI search engines
- * like ChatGPT, Claude, and Gemini.
+ * like ChatGPT, Claude, Gemini, and Perplexity.
+ * Optimized for Kuwait market.
  */
 
 export interface AIAgentConfig {
@@ -51,85 +52,129 @@ export const aiAgentConfig: AIAgentConfig = {
     'business information',
     'service provider',
     'local business',
-    'Kuwait business'
+    'Kuwait business',
+    'Kuwait company',
+    'KW directory'
   ],
   
   entityPatterns: {
     businessTypes: [
-      'restaurant', 'hotel', 'clinic', 'school', 'bank', 'shop', 'office',
-      'factory', 'warehouse', 'salon', 'gym', 'pharmacy', 'garage',
-      'law firm', 'accounting firm', 'real estate', 'insurance'
+      'restaurant', 'hotel', 'clinic', 'hospital', 'school', 'bank', 'shop', 'office',
+      'factory', 'warehouse', 'salon', 'gym', 'pharmacy', 'garage', 'mall',
+      'law firm', 'accounting firm', 'real estate', 'insurance', 'construction',
+      'engineering', 'consulting', 'retail store', 'supermarket', 'café', 'spa'
     ],
     locations: [
-      'Nairobi', 'Mombasa', 'Kisumu', 'Nakuru', 'Eldoret', 'Thika',
-      'Malindi', 'Kitale', 'Garissa', 'Kakamega', 'Nyeri', 'Meru'
+      // Capital Governorate (Al Asimah)
+      'Kuwait City', 'Sharq', 'Qibla', 'Mirgab', 'Dasman', 'Abdullah Al-Salem',
+      'Adiliya', 'Kaifan', 'Khaldiya', 'Mansouriya', 'Nuzha', 'Qadsiya',
+      'Qortuba', 'Rawda', 'Shamiya', 'Shuwaikh', 'Sulaibikhat', 'Yarmouk',
+      'Bneid Al-Gar', 'Daiya', 'Dasma', 'Faiha', 'Ghornata',
+      
+      // Hawalli Governorate
+      'Hawalli', 'Salmiya', 'Mangaf', 'Rumaithiya', 'Bayan', 'Mishref',
+      'Salwa', 'Shaab', 'Siddiq', 'Jabriya', 'Surra', 'Hitteen',
+      
+      // Farwaniya Governorate
+      'Farwaniya', 'Andalous', 'Abdullah Al-Mubarak', 'Ardhiya', 'Khaitan',
+      'Ferdous', 'Jleeb Al-Shuyoukh', 'Omariya', 'Rai', 'Rabiya', 'Rehab',
+      
+      // Ahmadi Governorate
+      'Ahmadi', 'Fahaheel', 'Fintas', 'Mahboula', 'Abu Halifa', 'Sabahiya',
+      'Wafra', 'Riqqa', 'Hadiya', 'Julaia', 'Khiran',
+      
+      // Jahra Governorate
+      'Jahra', 'Sulaibiya', 'Qasr', 'Taima', 'Naeem', 'Saad Al-Abdullah',
+      'Abdali', 'Kabd',
+      
+      // Mubarak Al-Kabeer Governorate
+      'Qurain', 'Qusour', 'Funaitees', 'Messila', 'Sabah Al-Salem',
+      'Adan', 'Abu Ftaira'
     ],
     services: [
       'consulting', 'repair', 'maintenance', 'delivery', 'installation',
       'training', 'cleaning', 'security', 'transport', 'catering',
-      'photography', 'design', 'marketing', 'legal', 'financial'
+      'photography', 'design', 'marketing', 'legal', 'financial',
+      'accounting', 'auditing', 'engineering', 'construction', 'renovation',
+      'IT services', 'web design', 'translation', 'visa services', 'logistics'
     ],
     industries: [
       'healthcare', 'education', 'technology', 'manufacturing', 'retail',
-      'hospitality', 'construction', 'agriculture', 'finance', 'transport'
+      'hospitality', 'construction', 'real estate', 'finance', 'transport',
+      'oil and gas', 'telecommunications', 'tourism', 'food and beverage',
+      'automotive', 'pharmaceuticals', 'banking', 'insurance', 'logistics'
     ]
   },
   
   conversationalHooks: {
     greetings: [
       'Looking for a business in Kuwait?',
-      'Need to find a service provider?',
-      'Searching for local businesses?',
-      'Want to connect with companies?'
+      'Need to find a service provider in Kuwait?',
+      'Searching for local businesses in Kuwait?',
+      'Want to connect with companies in Kuwait?',
+      'Find businesses across all 6 governorates'
     ],
     questions: [
       'What type of business are you looking for?',
-      'Which city or area interests you?',
-      'What services do you need?',
-      'Are you looking for verified businesses?'
+      'Which governorate or area interests you?',
+      'What services do you need in Kuwait?',
+      'Are you looking for verified businesses in Kuwait?',
+      'Need businesses in Kuwait City, Salmiya, or other areas?',
+      'Looking for Arabic or English-speaking services?'
     ],
     callsToAction: [
-      'Browse our directory now',
-      'Find verified businesses',
-      'Connect with local companies',
-      'Discover services near you'
+      'Browse our Kuwait directory now',
+      'Find verified businesses in Kuwait',
+      'Connect with local Kuwait companies',
+      'Discover services across Kuwait',
+      'Explore businesses in your governorate',
+      'List your business for free'
     ]
   },
   
   knowledgeGraph: {
     mainTopics: [
       'Kuwait business directory',
-      'local businesses',
-      'service providers',
-      'company listings',
-      'business information',
-      'contact details',
-      'location services'
+      'Kuwait business listings',
+      'Kuwait local businesses',
+      'Kuwait service providers',
+      'Kuwait company listings',
+      'business information Kuwait',
+      'contact details Kuwait businesses',
+      'location services Kuwait'
     ],
     relatedTopics: [
-      'East Africa business',
-      'African companies',
-      'business networking',
-      'professional services',
-      'commercial directory',
+      'Gulf business',
+      'GCC companies',
+      'Middle East business',
+      'Arab business directory',
+      'business networking Kuwait',
+      'professional services Kuwait',
+      'commercial directory Kuwait',
       'business verification',
-      'local economy'
+      'Kuwait economy',
+      'Kuwait New Vision 2035'
     ],
     semanticKeywords: [
       'business directory Kuwait',
-      'company listings Nairobi',
-      'service providers Mombasa',
-      'local businesses Kisumu',
+      'company listings Kuwait City',
+      'service providers Salmiya',
+      'local businesses Hawalli',
       'verified companies Kuwait',
       'business contacts Kuwait',
-      'professional services directory'
+      'professional services directory Kuwait',
+      'businesses in Fahaheel',
+      'Ahmadi companies',
+      'Farwaniya businesses',
+      'Kuwait business ecosystem',
+      'find businesses in Kuwait'
     ]
   },
   
   metaTags: {
-    contentLanguage: 'en-KE',
-    geoRegion: 'KE',
-    geoCountry: 'Kuwait',
+    contentLanguage: 'en-KW, ar-KW',
+    geoRegion: 'KW',
+    geoCountry: 'KW',
     distribution: 'global',
     rating: 'general',
     revisitAfter: '1 day'
@@ -168,6 +213,7 @@ export function generateAIAgentContent(
     category,
     location,
     'Kuwait',
+    'KW',
     'business directory',
     ...config.entityPatterns.businessTypes.filter(bt => 
       category.toLowerCase().includes(bt.toLowerCase())
@@ -183,6 +229,7 @@ export function generateAIAgentContent(
     'business services',
     'local directory',
     'Kuwait business',
+    'Kuwait services',
     ...config.knowledgeGraph.mainTopics,
     ...config.knowledgeGraph.semanticKeywords.filter(keyword =>
       keyword.toLowerCase().includes(category.toLowerCase()) ||
@@ -194,8 +241,9 @@ export function generateAIAgentContent(
   const conversationalHooks = [
     ...config.conversationalHooks.greetings,
     `Looking for ${category} in ${location}?`,
-    `Find the best ${category} services`,
-    `Connect with ${businessName}`
+    `Find the best ${category} services in Kuwait`,
+    `Connect with ${businessName}`,
+    `Discover ${category} businesses in Kuwait`
   ];
   
   // Generate Q&A pairs
@@ -210,7 +258,15 @@ export function generateAIAgentContent(
     },
     {
       question: `What services does ${businessName} offer?`,
-      answer: `${businessName} offers ${category} services in ${location}. For detailed information about their services, contact them directly.`
+      answer: `${businessName} offers ${category} services in ${location}. For detailed information about their services, contact them directly through our directory.`
+    },
+    {
+      question: `How can I contact ${businessName}?`,
+      answer: `You can find ${businessName}'s phone number, email, and location details on Kuwait Bizz Directory. Visit their profile for complete contact information.`
+    },
+    {
+      question: `Is ${businessName} a verified business?`,
+      answer: `${businessName} is listed on Kuwait Bizz Directory. Check their profile for verification status and customer reviews.`
     }
   ];
   
@@ -241,6 +297,7 @@ export function generateAIAgentSchema(
       '@type': 'WebPage',
       name: businessName,
       description: description,
+      inLanguage: ['en-KW', 'ar-KW'],
       about: {
         '@type': 'Thing',
         name: category,
@@ -252,7 +309,11 @@ export function generateAIAgentSchema(
         address: {
           '@type': 'PostalAddress',
           addressLocality: location,
-          addressCountry: 'KE'
+          addressCountry: 'KW'
+        },
+        areaServed: {
+          '@type': 'Country',
+          name: 'Kuwait'
         },
         knowsAbout: content.topics,
         sameAs: content.entities
@@ -261,10 +322,12 @@ export function generateAIAgentSchema(
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'https://kuwaitbizz.com/search?q={search_term_string}',
+          urlTemplate: 'https://www.kuwaitbizzdirectory.com/listings?q={search_term_string}',
           actionPlatform: [
             'https://schema.org/DesktopWebPlatform',
-            'https://schema.org/MobileWebPlatform'
+            'https://schema.org/MobileWebPlatform',
+            'https://schema.org/IOSPlatform',
+            'https://schema.org/AndroidPlatform'
           ]
         },
         'query-input': 'required name=search_term_string'
@@ -272,31 +335,55 @@ export function generateAIAgentSchema(
     },
     {
       '@context': 'https://schema.org',
-      '@type': 'QAPage',
-      mainEntity: {
+      '@type': 'FAQPage',
+      mainEntity: content.questionAnswer.map(qa => ({
         '@type': 'Question',
-        name: `What is ${businessName}?`,
+        name: qa.question,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: content.questionAnswer[0]?.answer || description
+          text: qa.answer
         }
-      }
+      }))
     },
     {
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: `${category} in ${location}`,
       description: `Directory of ${category} businesses in ${location}, Kuwait`,
-      itemListElement: content.entities.map((entity, index) => ({
+      itemListElement: content.entities.slice(0, 10).map((entity, index) => ({
         '@type': 'ListItem',
         position: index + 1,
         name: entity,
         item: {
           '@type': 'Thing',
           name: entity,
-          description: `${entity} related to ${category} in ${location}`
+          description: `${entity} related to ${category} in ${location}, Kuwait`
         }
       }))
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://www.kuwaitbizzdirectory.com/'
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: category,
+          item: `https://www.kuwaitbizzdirectory.com/listings/${category.toLowerCase().replace(/\s+/g, '-')}`
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: businessName,
+          item: `https://www.kuwaitbizzdirectory.com/listings/${category.toLowerCase().replace(/\s+/g, '-')}/${businessName.toLowerCase().replace(/\s+/g, '-')}`
+        }
+      ]
     }
   ];
 }
