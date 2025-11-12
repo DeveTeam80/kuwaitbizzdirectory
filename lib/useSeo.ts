@@ -904,7 +904,7 @@ export async function generateCategoryPageSEOMetadata(
   // Load category-specific JSON-LD schema
   let categorySchema: any | null = null;
   try {
-    const module = await import(`@/seo/schema/${categorySlug}.json`); // 📁 FIX
+    const module = await import(`../seo/schema/${categorySlug}.json`); // 📁 FIX
     categorySchema = module.default ?? module;
   } catch {
     // Schema file not found - will use dynamic generation only
@@ -1023,7 +1023,7 @@ export async function generateListingPageSEOMetadata(
   let listingSchema: any | null = null;
   try {
     const baseDir = context === ListingContext.GLOBAL ? 'global-listings' : 'listings';
-    const mod = await import(`@/seo/schema/${baseDir}/${categorySlug}/${listingSlug}.json`); // 📁 FIX
+    const mod = await import(`../seo/schema/${baseDir}/${categorySlug}/${listingSlug}.json`); // 📁 FIX
     listingSchema = (mod as any).default ?? mod;
   } catch {
     // No custom schema - will use dynamic generation
