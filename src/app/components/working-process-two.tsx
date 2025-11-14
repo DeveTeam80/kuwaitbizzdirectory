@@ -33,14 +33,14 @@ export default function WorkingProcessTwo() {
                             </div>
 
                             <div className="d-flex align-items-center gap-3 mb-4">
-                                <Link href="/all-listings" className="btn btn-dark fw-medium px-lg-4 py-lg-3">
+                                <Link href="/listings" className="btn btn-dark fw-medium px-lg-4 py-lg-3">
                                     {/* ====== Added text-light class to make text visible ====== */}
                                     <div className="d-block text-start text-light">
                                         <span className="text-uppercase fw-light fs-sm">Start Exploring</span>
                                         <h6 className="mb-0  fw-semibold" style={{ color: '#ffffff' }}>Browse Listings</h6>
                                     </div>
                                 </Link>
-                                <Link href="/listing" className="btn btn-dark fw-medium px-lg-4 py-lg-3">
+                                <Link href="/add-listing" className="btn btn-dark fw-medium px-lg-4 py-lg-3">
                                     {/* ====== Added text-light class to make text visible ====== */}
                                     <div className="d-block text-start text-light">
                                         <span className="text-uppercase fw-light fs-sm">Join Our Network</span>
